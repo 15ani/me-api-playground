@@ -1,0 +1,7 @@
+Platform,Free_Tier,Database_Support,CI_CD,Ease_of_Use,Best_For
+Vercel,Yes (Generous),External only,Git integration,Excellent,Frontend + API
+Render,Yes (Limited),PostgreSQL included,Git integration,Very Good,Full-stack apps
+Heroku,Yes (Limited),Add-ons required,Git integration,Excellent,Prototypes
+Railway,Yes ($5 credit),PostgreSQL included,Git integration,Excellent,Full-stack apps
+Google Cloud,Yes (3 months),Cloud SQL,Cloud Build,Moderate,Enterprise
+AWS,Yes (12 months),"RDS, DynamoDB",CodePipeline,Complex,Enterprise

@@ -1,0 +1,9 @@
+Method,Endpoint,Description,Response_Fields
+GET,/profile,Get complete user profile,"name, email, education[], skills[], projects[], work[], links{}"
+POST,/profile,Create new profile,created profile with ID
+PUT,/profile,Update existing profile,updated profile data
+DELETE,/profile,Delete profile,deletion confirmation
+GET,/projects?skill=python,Get projects filtered by skill,filtered project list
+GET,/skills/top?limit=5,Get top N skills by proficiency,top skills with proficiency
+GET,/search?q=machine learning,Search across all content,search results with relevance
+GET,/health,Health check endpoint,"status: ok, timestamp"

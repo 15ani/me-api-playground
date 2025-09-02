@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Computer Science Student & Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="nav-brand">
+                <span class="brand-text">Portfolio</span>
+            </div>
+            
+            <div class="nav-menu" id="nav-menu">
+                <a href="#hero" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#api-demo" class="nav-link">API Demo</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            
+            <div class="nav-controls">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <span class="theme-icon">🌙</span>
+                </button>
+                <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Toggle menu">
+                    <span class="hamburger"></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Your Name</h1>
+                    <p class="hero-subtitle">Computer Science Student & Aspiring Software Developer</p>
+                    <p class="hero-description">
+                        Passionate computer science student with a strong foundation in programming, 
+                        algorithms, and emerging technologies like AI/ML and quantum computing. Currently 
+                        preparing for placements while working on innovative projects that combine 
+                        theoretical knowledge with practical applications.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn--primary">View Projects</a>
+                        <a href="https://your-resume-link.pdf" target="_blank" class="btn btn--outline">Download Resume</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-placeholder">
+                        <span class="profile-initials">YN</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>I'm a dedicated computer science student with a passion for solving complex problems through code. My journey in technology spans multiple domains including web development, machine learning, and emerging technologies like quantum computing.</p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">4</span>
+                            <span class="stat-label">Projects</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Technologies</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">2.5</span>
+                            <span class="stat-label">Years Coding</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills-section">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-filter">
+                <button class="skill-filter-btn active" data-category="all">All</button>
+                <button class="skill-filter-btn" data-category="Programming">Programming</button>
+                <button class="skill-filter-btn" data-category="Web Development">Web Dev</button>
+                <button class="skill-filter-btn" data-category="AI/ML">AI/ML</button>
+                <button class="skill-filter-btn" data-category="Tools">Tools</button>
+            </div>
+            <div class="skills-grid" id="skills-grid">
+                <!-- Skills will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-controls">
+                <div class="search-container">
+                    <input type="text" id="project-search" placeholder="Search projects by technology..." class="form-control">
+                </div>
+                <div class="project-filters">
+                    <button class="project-filter-btn active" data-filter="all">All</button>
+                    <button class="project-filter-btn" data-filter="Python">Python</button>
+                    <button class="project-filter-btn" data-filter="JavaScript">JavaScript</button>
+                    <button class="project-filter-btn" data-filter="React">React</button>
+                    <button class="project-filter-btn" data-filter="Machine Learning">ML</button>
+                </div>
+            </div>
+            <div class="projects-grid" id="projects-grid">
+                <!-- Projects will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section education-section">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="education-card card">
+                            <div class="card__body">
+                                <h3>Bachelor of Technology</h3>
+                                <h4>Computer Science and Engineering</h4>
+                                <p class="institution">Your College/University</p>
+                                <p class="duration">2022 - 2026</p>
+                                <div class="grade">CGPA: 8.5/10</div>
+                                <p class="coursework">
+                                    <strong>Relevant Coursework:</strong> Data Structures & Algorithms, 
+                                    Machine Learning, Database Systems, Software Engineering, 
+                                    Computer Networks, Operating Systems
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- API Demo Section -->
+    <section id="api-demo" class="section api-demo-section">
+        <div class="container">
+            <h2 class="section-title">Me-API Demo</h2>
+            <p class="section-subtitle">Interactive demonstration of the Me-API Playground endpoints</p>
+            
+            <div class="api-controls">
+                <select id="endpoint-select" class="form-control">
+                    <option value="">Select an endpoint to test</option>
+                </select>
+                <button id="test-endpoint" class="btn btn--primary">Test Endpoint</button>
+            </div>
+            
+            <div class="api-demo-grid">
+                <div class="endpoint-info">
+                    <h3>Endpoint Information</h3>
+                    <div id="endpoint-details" class="endpoint-details">
+                        <p>Select an endpoint to view details</p>
+                    </div>
+                </div>
+                
+                <div class="response-area">
+                    <h3>Response</h3>
+                    <div class="response-container">
+                        <div id="loading-indicator" class="loading-indicator hidden">
+                            <div class="spinner"></div>
+                            <span>Loading...</span>
+                        </div>
+                        <pre id="response-output" class="response-output">
+{
+  "message": "Select and test an endpoint to see the response"
+}
+                        </pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>I'm always open to discussing new opportunities, collaborating on projects, or just having a chat about technology!</p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-item">
+                            <span class="contact-icon">📧</span>
+                            <span>your.email@example.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📱</span>
+                            <span>+91-XXXXXXXXXX</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <span>India</span>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://github.com/yourusername" target="_blank" class="social-link">GitHub</a>
+                        <a href="https://linkedin.com/in/yourprofile" target="_blank" class="social-link">LinkedIn</a>
+                        <a href="https://yourportfolio.com" target="_blank" class="social-link">Portfolio</a>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" id="name" name="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" id="email" name="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject" class="form-label">Subject</label>
+                        <input type="text" id="subject" name="subject" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea id="message" name="message" rows="5" class="form-control" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Your Name. Built with passion and dedication.</p>
+                <p>Designed and developed as part of the Me-API Playground project.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

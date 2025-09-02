@@ -1,0 +1,8 @@
+Table,Primary_Key,Key_Fields,Relationships
+users,id,"name, email, phone, bio",One to many with other tables
+education,id,"user_id, institution, degree, field, start_date, end_date",Foreign key: user_id
+skills,id,"name, category, proficiency_level",Many to many with projects
+projects,id,"title, description, start_date, end_date, demo_url, repo_url",Many to many with skills
+work_experience,id,"user_id, company, position, start_date, end_date, description",Foreign key: user_id
+project_skills,"project_id, skill_id",Many-to-many relationship,Bridge table for projects-skills
+links,id,"user_id, type, url, display_name",Foreign key: user_id

@@ -1,0 +1,5 @@
+Framework,Language,Type,Performance,Learning_Curve,Auto_Documentation,Type_Safety,Async_Support,Best_For
+FastAPI,Python,Micro-framework,Excellent (1000+ req/s),Easy,Built-in Swagger/ReDoc,Excellent (Type hints),Native,"APIs, Microservices"
+Django REST,Python,Full-framework,Good (300+ req/s),Moderate,Requires setup,Good (Serializers),With Django Channels,Full web apps
+Express.js,JavaScript,Minimal framework,Very Good (800+ req/s),Easy,Manual setup,Limited,Native,Real-time apps
+Flask,Python,Micro-framework,Good (400+ req/s),Easy,Manual setup,Limited,With extensions,Small to medium projects
